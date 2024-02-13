@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.box {
+    margin-left: 1px;
+    text-align: center;
+    background-color: black;
+    padding: 69px;
+    border: 5px solid lime;
+    margin-left: 0px;
+    display: inline-block;
+    margin-left: 6px;
+    transition: background-color 0.5s ease-in;
+    
+}
+
+.box:hover {
+    background-color: lime;
+    border: 5px solid black;
+    transition: background-color 0.1s ease-out;
+}
+
+.kolchi {
+    display: inline-block;
+    position: relative;
+}
+
+.carte {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: fit-content;
+    max-width: 400px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color:transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid lime;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.hello{
+    font-size: 30px;
+    font-weight: bold;
+    max-width: min-content;
+    margin: auto;
+    color: rgb(44, 44, 44);
+    margin-bottom: 17px;
+    filter: drop-shadow(0 0 10px #ffffff);
+}
+
+.email {
+    outline: 1.5px solid rgb(87, 87, 87);
+    padding-right: 120px;
+    padding-left: 15px;
+    
+    padding-top: 5px;
+    font-size: larger;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    border: solid 1px;
+    display: block;
+    margin:  auto;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.password {
+    outline: 1.5px solid rgb(87, 87, 87);
+    padding-right: 120px;
+    padding-left: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: larger;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    border: solid 1px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.forgot {
+    color: rgb(119, 119, 119);
+    font-weight: bold;
+    margin:0px 0px 0px 20px;
+    filter: drop-shadow(0 0 10px #ffffff);
+    
+    
+}
+
+.login {
+    font-size: large;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 150px;  
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: rgb(124, 124, 124);
+    cursor: pointer;
+    margin-bottom: 40px;
+    display: block;
+    margin:  auto;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    transition: 0.30s;
+}
+.login:hover{
+    opacity: 0.8;
+}
+.google1 {
+    padding-right: 90px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 30px;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.google {
+    width: 20px;
+}
+
+.lhdra {
+    margin-left: 10px;
+}
+
+.facebookimg {
+    width: 20px;
+}
+
+.facebook {
+    padding-right: 90px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 30px;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lhdra1 {
+margin-left: 7px;
+    
+}
+
+.don {
+    font-weight: bold;
+    color: rgb(171, 171, 171);
+}
+
+.ey {
+    color: aqua;
+    margin-left: 7px;
+}
+@media only screen and (max-width: 600px) {
+body{
+    background-color:rgb(0, 0, 0);
+    overflow: hidden;
+}
+.box{
+    border: 1px black solid;
+    padding: 0;
+}
+.carte{
+    margin-top: 200px;
+    padding: 5px;
+}
+.facebook{
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+}

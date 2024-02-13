@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carta {
+    display: inline-block; /* Adjusted display property */
+    border: solid 3px red;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+    
+}
+
+input{
+    background-color: black; 
+    color: rgb(0, 0, 0);
+    border: 0 solid black;
+    font-size:large;
+    font-weight: bold;
+    outline: none;
+    color: white;
+    margin-left: 10px;
+
+}
+input::placeholder{
+    color: rgb(167, 167, 167);
+    font-size: small;
+}
+.signup{
+    color: rgb(255, 0, 0);
+    font-size:30px;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    outline: 0;
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 17px;
+    filter: drop-shadow(0 0 10px #610707);
+    text-align: center;
+}
+.user{
+    margin-bottom: 0;
+
+}
+.line{
+    border: red 1px solid;
+    margin-left: 10px;
+    max-width: 230px;
+    margin-bottom: 15px;
+}
+.sub{
+    font-size:15px;
+    font-weight:bolder;
+    padding:10px 30px 10px 30px;
+    background-color: red;
+    border: none;
+    margin-top: 15px;
+    display:inline-block;
+    cursor: pointer;
+    border-radius: 2px;
+    
+}
+.batata{
+    color: white;
+    font-weight: bold;
+    max-width: 250px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.kokjo{
+    color: red;
+}
+.lk{
+    color: red;
+}
+.al{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,110 @@
+body {
+    background: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui;
+    min-height: 100vh;
+}
+.koko{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digit{
+    color: white;
+    font-weight:bold;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.ent{
+    margin-top: 20px;
+    text-align: center;
+    margin-left:50px;
+    margin-right:50px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.card {
+    width: fit-content;
+    height: fit-content;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+.log{
+    color: white;
+    font-size:larger;
+    font-weight:bolder;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 200px;
+}
+.potato{
+    height: 50px;
+    margin-left: 10px;
+    max-width: 25px;
+    font-size: 45px;
+    outline: none;
+    border-radius:10px;
+    border: solid 1px red;
+    background-color: black;
+    color: red;
+    padding: 10px;
+    font-weight: bolder;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.conn{
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.cln{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.submit{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+button{
+    padding:10px 20px 10px 20px;
+    background-color: black;
+    border: solid 2px red;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+input{
+    text-align: center;
+}
